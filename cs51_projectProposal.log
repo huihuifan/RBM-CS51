@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  9 APR 2015 23:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 APR 2015 00:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -417,36 +417,47 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+<layers_rbm.png, id=46, 1160.83687pt x 773.89125pt>
+File: layers_rbm.png Graphic file (type png)
+ <use layers_rbm.png>
+Package pdftex.def Info: layers_rbm.png used on input line 91.
+(pdftex.def)             Requested size: 348.25374pt x 232.16916pt.
 
-(./cs51_projectProposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+<cdk-1.png, id=48, 1160.83687pt x 773.89125pt>
+File: cdk-1.png Graphic file (type png)
+ <use cdk-1.png>
+Package pdftex.def Info: cdk-1.png used on input line 96.
+(pdftex.def)             Requested size: 348.25374pt x 232.16916pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+ [3] [4 <./layers_rbm.png> <./cdk-1.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+ (./cs51_projectProposal.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `cs51_projectProposal.out' has not changed.
 (rerunfilecheck)             Checksum: A31A4D62E888631D6D2D55AF466CF635;240.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 7031 strings out of 493315
- 103132 string characters out of 6137904
+ 7049 strings out of 493315
+ 103349 string characters out of 6137904
  196658 words of memory out of 5000000
- 10398 multiletter control sequences out of 15000+600000
- 11958 words of font info for 47 fonts, out of 8000000 for 9000
+ 10409 multiletter control sequences out of 15000+600000
+ 12305 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,6n,32p,501b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,32p,501b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cs51_projectProposal.pdf (3 pages, 77415 bytes).
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on cs51_projectProposal.pdf (4 pages, 746599 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
