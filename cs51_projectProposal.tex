@@ -84,17 +84,31 @@ From a slightly more modular/object-oriented point of view, our tasks consists o
   \item At the bottom of the RBM we will have our individual units (``neurons'') which we can consider as the smallest building blocks of the RBM. The units will be either visible units or hidden units. Within each unit there will be some function which takes a vector as input and outputs binary values. In effect, we can think of the signature of a unit as containing at least a function and a value.
   \item Subsequently, we will build connection objects between the neurons. In the signatures for the the connection objects we specify two values: the value of the input neuron and the value of the output neuron.
   \item Once we have both connections and neurons, we will construct the greater neural network by building \textit{layers} using our units and connecting them. In particular, we will have visible layers (created by visible units) and hidden layers (created by hidden units).
-  \item 
 \end{itemize}
+
+\subsection{Project Responsibilities}
+Our project will naturally split into the following components; we note that not all of these tasks are equivalent in terms of time and effort so that ultimately we will divide the responsibilities into subtasks such that magnitudes of time and effort are distributed equally among the group members:
+\begin{itemize}
+  \item Energy function
+  \item Gibbs sampler
+  \item CD-$k$ algorithm
+  \item Contrastive divergence
+  \item Writing the method to train the neural network
+  \item Specifications of hidden states
+  \item Specifications of visible states
+  \item Determining hyperparameters
+\end{itemize}
+
+In addition to these individual subtasks, we will also work collectively as a group to debug the finished program as well as integrate and synthesize the various different modules of the task.
 
 \begin{figure}
   \centerline{\includegraphics[scale=0.3]{layers_rbm.png}}
-  \caption{}
+  \caption{Simple diagram of a neural network. To reiterate the hand-written captions above: we first intend to set the neurons on the visible layer to match training data, then we will use the training data to make predictions}
 \end{figure}
 
 \begin{figure}
   \centerline{\includegraphics[scale=0.3]{cdk-1.png}}
-  \caption{}
+  \caption{To reiterate the hand-written captions above: in using CD-$k$ to train, we iteratively computes hidden and visible neurons; a greater number of steps in the process will generally lead to greater accuracy in the final predictions. We can imaginge this process as each object's visible input is fed forward into the next object. }
 \end{figure}
 
 \section{Next Steps}
