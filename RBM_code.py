@@ -17,7 +17,7 @@ Restricted Boltzmann Machine Agent Class
 
 DOCUMENTATION HERE:
 
-PAPER:
+Our implementation will follow this paper: PAPER:
 http://www.cs.toronto.edu/~hinton/absps/guideTR.pdf
 
 NOTES:
@@ -50,23 +50,26 @@ class RBM(object):
 	'''
 
 	# Hopfield Energy Function
-	def energy(self, visible_states, hidden_states):  
-		return (- np.dot(visible_states, self.weights[:,0]) - np.dot(hidden_states, self.weights[0,:]) - np.dot(hidden_states[1:], np.dot(W[1:,1:],visible_states[1:])))
+	def _energy(self, visible_states, hidden_states):  
+		return (- np.dot(visible_states, self.weights[:,0]) - \\
+				np.dot(hidden_states, self.weights[0,:]) - \\
+				np.dot(hidden_states[1:], \\
+				np.dot(W[1:,1:],visible_states[1:])))
 
 	# Logistic Sigmoid Function
-	def sigmoid(self, x):
+	def _sigmoid(self, x):
 		return 1/(1+np.exp(-x))
 
 	# Partition Function
-	def Z(self):
+	def _Z(self):
 		return TODO
 
 	# Probability of Visible/Hidden Pair 
-	def probability(self, visible_states, hidden_states):  
+	def _probability(self, visible_states, hidden_states):  
 		return TODO
 
 	# Probability of Visible
-	def probability_visible(self, visible_states):  
+	def _probability_visible(self, visible_states):  
 		return TODO
 
 	# Get unbiased sample of <data>
@@ -76,11 +79,11 @@ class RBM(object):
 	... TODO
 
     # Derivative of the log probability of a training vector with respect to a weight
-	def deriv_log_prob(self, visible_states, i, j):
+	def _deriv_log_prob(self, visible_states, i, j):
 		return TODO
 
 	# Stochastic steepest ascent in the log probability of the training data
-	def delta(self, i, j, visible_states):
+	def _delta(self, i, j, visible_states):
 		return TODO
 
 	# Gibbs Sampler
