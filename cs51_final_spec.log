@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  16 APR 2015 22:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  16 APR 2015 23:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -408,15 +408,10 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-[1
+ [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.071pt too wide) in paragraph at lines 68--69
+Overfull \hbox (2.071pt too wide) in paragraph at lines 69--70
 []\OT1/cmr/m/it/12 Overarching goals for this week: \OT1/cmr/m/n/12 fin-ish im-
 ple-men-ta-tion, start ad-just-ing meta-parameters
  []
@@ -433,13 +428,13 @@ Package rerunfilecheck Info: File `cs51_final_spec.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 6973 strings out of 493315
- 102231 string characters out of 6137904
- 195750 words of memory out of 5000000
+ 6972 strings out of 493315
+ 102224 string characters out of 6137904
+ 196750 words of memory out of 5000000
  10319 multiletter control sequences out of 15000+600000
  12780 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,6n,32p,271b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,32p,268b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
@@ -447,10 +442,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cs51_final_spec.pdf (3 pages, 78991 bytes).
+Output written on cs51_final_spec.pdf (3 pages, 79460 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 33 named destinations out of 1000 (max. 500000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 32 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

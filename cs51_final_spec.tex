@@ -18,11 +18,11 @@
 \maketitle
 
 \section{Signatures/Interfaces}
-\textit{See attached \texttt{Python} code and comments for more detailed descriptions.} //
+\textit{See attached \texttt{Python} code and comments for more detailed descriptions.} 
 
-Python is not strongly typed and we will not necessarily need to create too many objects outside of the arrays, lists, and other data structures provided in the \texttt{numpy} package for most of the interactions and implementations.
+Python is not strongly typed and we will probably not need to create too many objects outside of the arrays, lists, and other data structures provided in the \texttt{numpy} package for most of the interactions and implementations.
 
-Python does not provide a strict method of defining public and private data types. However, within the overarching RBM class, we will have the following private methods:
+Python does not provide a strict method of defining public and private data types. However, within the overarching RBM class, we will have the following "private" methods:
 \begin{itemize}
   \item Hopfield Energy Function
   \item Logistic Sigmoid Function
@@ -41,7 +41,8 @@ We will also have the following public methods:
 Input formats will be pre-processed so that we can input a wide variety of types such as varying image sizes.
 
 \section{Modules/Actual Code}
-\textit{See attached \texttt{Python} code and comments for more detailed descriptions.} \\
+\textit{See attached \texttt{Python} code and comments for more detailed descriptions.} 
+We will create an RBM class. Our extension versions will inherit from this class and override already existing methods. 
 
 \section{Timeline}
 \subsection{Week of Monday, April 13th}
@@ -51,30 +52,29 @@ Input formats will be pre-processed so that we can input a wide variety of types
   \item Within actual code, start skeleton code/signature for each function/class
   \item Delegate concrete responsibilities to team members
   \item Create fixed timeline for internal deadlines
+  \item Create first half of video that summarizes motivation and explanation of a neural network
   \item Meet together on Sunday, April 19th for a day-long group coding session
 \end{enumerate}
 
 \subsection{Week of Monday, April 20th}
 \begin{enumerate}
   \item Implement basic version with binary hidden and visible units
-  \item Fill in all the implementations of the function definitions
-  \item 
-  \item 
-  \item 
+  \item Implement function definitions
+  \item Write test cases for methods defined inside the RBM class
+  \item Create and test our RBM on a toy dataset
 \end{enumerate}
 
 \subsection{Week of Monday, April 27th}
 \begin{enumerate}
-  \item \textit{Overarching goals for this week:} finish implementation, start adjusting meta-parameters in application/implementation
+  \item \textit{Overarching goals for this week:} finish implementation, start adjusting meta-parameters in application/implementation and optimize the RBM
   \item Start testing the RBM on a simple data set such as the MNIST handwritten digit database
   \item Analyze performance, make adjustments on RBM, choose optimal input data set (such that the computation is feasible given our time constraints)
   \item Tidy up the code, add in any extra comments
   \item Finish writing up the README
+  \item Finish video
   \item \textit{Extension:} Change the implementation such that hidden and visible units are not necessarily binary
   \item \textit{Extension:} Add regularization to the algorithm
-  \item \textit{Extension:} Implement mini-batches
   \item \textit{Potential Extension:} Add graphical displays to check learning progress, overfitting, adjust learning rate
-  \item \textit{Potential Extension:} Implement momentum method
 \end{enumerate}
 
 
@@ -83,6 +83,6 @@ The attached \texttt{RBM\_code.py} Python code contains the skeleton code for th
 
 
 \section{Version Control}
-We have already created a GitHub repository for our final project. The clone URL is \url{https://github.com/huihuifan/CS51-FinalProject.git}. 
+We have already created a GitHub repository for our final project. The clone URL is \url{https://github.com/huihuifan/CS51-FinalProject.git}. We will branch this repo as necessary. 
 
 \end{document}
