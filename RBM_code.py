@@ -40,7 +40,7 @@ class RBM(object):
 		self.visible = np.insert(self.visible, 0, 1)  # add bias
 		self.hidden = np.insert(self.hidden, 0, 1)  # add bias
 		self.learning_rate = learning_rate
-		self.activation_func = activation_func
+		self.activation_func = activation_func 
 		# Initialize internal variables 
 		self.weights = np.random.rand((self.num_visible+1,self.num_hidden+1)) + 0.01  # includes bias index 0
 
@@ -73,10 +73,10 @@ class RBM(object):
 		return TODO
 
 	# Get unbiased sample of <data>
-	... TODO
+	#... TODO
 
 	# Get unbiased sample of <model>
-	... TODO
+	#... TODO
 
     # Derivative of the log probability of a training vector with respect to a weight
 	def _deriv_log_prob(self, visible_states, i, j):
