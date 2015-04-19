@@ -16,7 +16,9 @@ Neural networks function by using many neurons- shown here as the blue circles- 
 
 For our project, we implemented a specific kind of neural network, called a Restricted Boltzmann Machine, or RBM. An RBM has two layers- a visible layer, and a hidden layer. Iteratively, the RBM learns weights, or values that represent how each node in the visible layer affects the hidden layer, and vice versa. Our RBM contains a bias layer as well, which allows the hidden and visible layer nodes to have a unique offset.
 
-We started by training our RBM on a toy dataset to understand what kind 
+We started by training our RBM on a toy dataset for debugging purposes before tackling George's handwriting problem by training our RBM on the MNIST dataset.
+
+<insert results>
 
 
 
