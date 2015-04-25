@@ -1,0 +1,41 @@
+Video Script:
+
+Hi, I'm Vincent, and today I'll be introducing our CS51 final project.
+
+Meet George, a new small business owner. George has always loved ramen, and recently opened a new ramen restaurant. It's slowly been picking up popularity and now is booming! That's great for George, but now he needs help keeping all of his records organized. 
+
+The number of receipts George needs to organize is growing, and he wants to digitize them by scanning them into a computer and having his computer automatically read the handwritten numbers.
+
+He goes to consult Angela and Andre's machine learning startup to get help on his problem. Angela and Andre introduce George to a machine learning procedure called the Neural Network.
+
+A Neural Network is a family of learning algorithms based on the structure of neurons in the human brain. The idea is that neurons take input from a variety of sources, consolidate the data, and output a signal if the threshold is high enough. In Machine Learning, we want to imitate the neuron system to help distinguish signal from noise.
+
+Neural networks function by using many neurons- shown here as the blue circles- to process the data and produce signal- shown here as the lines. The neural network stacks multiple layers of neuron nodes on top of each other, and the layers signal to each other.
+
+--- Screencast ---
+
+For our project, we implemented a specific kind of neural network, called a Restricted Boltzmann Machine, or RBM. An RBM has two layers- a visible layer, and a hidden layer. Iteratively, the RBM learns weights, or values that represent how each node in the visible layer affects the hidden layer, and vice versa. Our RBM contains a bias layer as well, which allows the hidden and visible layer nodes to have a unique offset.
+
+We started by training our RBM on a toy dataset for debugging purposes before tackling George's handwriting problem by training our RBM on the MNIST dataset.
+
+<insert results>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
