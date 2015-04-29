@@ -4,8 +4,6 @@ A CS51 Spring 2015 Final Project.
 
 Angela Fan, Andre Nguyen, Vincent Nguyen, George Zeng.
 
--
-
 ## Instructions
 
 Our code can be found in \textbf{NAME HERE} ipython notebook, which can be accessed from our git repository: https://github.com/huihuifan/RBM-CS51. We annotate the purposes of each file in our GitHub ReadMe, but the code and output is in the \textbf{NAME HERE} notebook. We have also included the code in our zip file, which we submitted with this report.
