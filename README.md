@@ -6,7 +6,7 @@ Angela Fan, Andre Nguyen, Vincent Nguyen, George Zeng.
 
 ## Instructions
 
-Our code can be found in cs51_rbm_final ipython notebook, which can be accessed from our git repository: https://github.com/huihuifan/RBM-CS51. We annotate the purposes of each file in our GitHub ReadMe, but the code and output is in the cs51_rbm_final notebook. Additional data files can be found the data folder and must be placed in the same directory as the code to be run.  We have also included the code in our zip file, which we submitted with this report.
+Our code can be found in the cs51_rbm_final ipython notebook, which can be accessed from our git repository: https://github.com/huihuifan/RBM-CS51. We annotate the purposes of each file in our GitHub ReadMe, but the code and output is in the cs51_rbm_final notebook. Additional data files can be found the data folder and must be placed in the same directory as the code to be run.  We have also included the code in our zip file, which we submitted with this report.
 
 ## Video
 
